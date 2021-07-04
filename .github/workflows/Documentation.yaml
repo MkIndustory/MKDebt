@@ -1,0 +1,28 @@
+name: Documentation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * *
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  job1:
+      name: Generate Documentation
+      runs-on: macos-latest
+      steps:
+        uses: sersoft-gmbh/swifty-docs-action@v1
+        with:
+          # Optional. Defaults to ${{github.workspace}}.
+          source: ${{github.workspace}}
+          # Optional. E.g. run this action on tags and use the tag name.
+          module-version: 1.2.3
+          # Optional.
+          output: docs
+          # Optional. Defaults to true.
+          clean: true
