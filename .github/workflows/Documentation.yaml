@@ -16,7 +16,7 @@ jobs:
       name: Generate Documentation
       runs-on: macos-latest
       steps:
-        uses: sersoft-gmbh/swifty-docs-action@v1
+      - uses: sersoft-gmbh/swifty-docs-action@v1
         with:
           # Optional. Defaults to ${{github.workspace}}.
           source: ${{github.workspace}}
