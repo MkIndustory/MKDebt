@@ -9,9 +9,8 @@ on:
 
 jobs:
   build:
-
     runs-on: macos-latest
-
+    timeout-minutes: 60
     steps:
     - uses: actions/checkout@v2-beta
     - name: Select Xcode version
@@ -21,3 +20,5 @@ jobs:
     #  run: pod install
     - name: Show Xcode version
       run: xcodebuild -version
+    - name: Build with xcode
+      run: xcodebuild -sdk iphonesimulator -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max' clean test | xcpretty
