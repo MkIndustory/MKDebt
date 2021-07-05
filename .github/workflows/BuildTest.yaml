@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: ["iPhone 12 Pro Max", "iPhone 11 Pro"]
+        platform: ["iPhone 12 Pro Max", "iPhone 11 Pro"]
     steps:
     - uses: actions/checkout@v2-beta
     - name: Select Xcode version
@@ -23,5 +23,10 @@ jobs:
     #  run: pod install
     - name: Show Xcode version
       run: xcodebuild -version
-    - name: Build with xcode
-      run: xcodebuild -scheme MKDebt -sdk iphonesimulator -configuration Debug -destination 'platform=iOS Simulator,name=${{ matrix.target }}' clean test | xcpretty
+    - uses: sersoft-gmbh/xcodebuild-action@v1
+      with:
+        workspace: MKDebt.xcodeproj/project.xcworkspace
+        project: MKDebt.xcodeproj
+        scheme: MKDebt
+        destination: platform=${{ matrix.platform }}
+        action: build
