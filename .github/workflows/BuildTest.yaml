@@ -11,9 +11,9 @@ jobs:
     runs-on: macos-latest
     timeout-minutes: 60
     strategy:
-    fail-fast: false
-    matrix:
-      target: ["iPhone 12 Pro Max", "iPhone 11 Pro"]
+      fail-fast: false
+      matrix:
+        target: ["iPhone 12 Pro Max", "iPhone 11 Pro"]
     steps:
     - uses: actions/checkout@v2-beta
     - name: Select Xcode version
