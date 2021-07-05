@@ -27,5 +27,5 @@ jobs:
       with:
         project: MKDebt.xcodeproj
         scheme: MKDebt
-        destination: platform=${{ matrix.platform }}
+        destination: "platform=iOS Simulator,OS=14.6,name={{ matrix.platform }}"
         action: build
