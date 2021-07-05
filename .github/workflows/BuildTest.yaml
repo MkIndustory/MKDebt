@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2-beta
     - name: Select Xcode version
-      run: sudo xcode-select -s '/Applications/Xcode_11.2.app/Contents/Developer'
+      run: sudo xcode-select -s '/Applications/Xcode_12.4.app/Contents/Developer'
     # CocoaPodsを使うようになったらここのコメントアウトを外す
     # - name: CocoaPods
     #  run: pod install
