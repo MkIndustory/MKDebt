@@ -24,4 +24,4 @@ jobs:
     - name: Show Xcode version
       run: xcodebuild -version
     - name: Build with xcode
-      run: xcodebuild -sdk iphonesimulator -configuration Debug -destination 'platform=iOS Simulator,name=${{ matrix.target }}' clean test | xcpretty
+      run: xcodebuild -scheme MKDebt -sdk iphonesimulator -configuration Debug -destination 'platform=iOS Simulator,name=${{ matrix.target }}' clean test | xcpretty
