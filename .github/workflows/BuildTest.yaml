@@ -26,7 +26,6 @@ jobs:
     - uses: sersoft-gmbh/xcodebuild-action@v1
       with:
         workspace: MKDebt.xcodeproj/project.xcworkspace
-        project: MKDebt.xcodeproj
         scheme: MKDebt
         destination: platform=${{ matrix.platform }}
         action: build
