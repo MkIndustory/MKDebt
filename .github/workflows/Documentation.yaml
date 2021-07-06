@@ -25,3 +25,9 @@ jobs:
           output: docs
           # Optional. Defaults to true.
           clean: true
+      - name: Publish Github Page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site
+          keep_files: false
