@@ -1,0 +1,138 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/ContentView.swift",
+      "line": 11,
+      "symbol": "ContentView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/ContentView.swift",
+      "line": 12,
+      "symbol": "ContentView.viewContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/ContentView.swift",
+      "line": 17,
+      "symbol": "ContentView.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/ContentView.swift",
+      "line": 37,
+      "symbol": "ContentView.addItem()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/ContentView.swift",
+      "line": 53,
+      "symbol": "ContentView.deleteItems(offsets:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/ContentView.swift",
+      "line": 69,
+      "symbol": "itemFormatter",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/ContentView.swift",
+      "line": 76,
+      "symbol": "ContentView_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/MKDebtApp.swift",
+      "line": 11,
+      "symbol": "MKDebtApp",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/MKDebtApp.swift",
+      "line": 12,
+      "symbol": "MKDebtApp.persistenceController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/Persistence.swift",
+      "line": 10,
+      "symbol": "PersistenceController",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/Persistence.swift",
+      "line": 11,
+      "symbol": "PersistenceController.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/Persistence.swift",
+      "line": 13,
+      "symbol": "PersistenceController.preview",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/Persistence.swift",
+      "line": 31,
+      "symbol": "PersistenceController.container",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/MKDebt/Persistence.swift",
+      "line": 33,
+      "symbol": "PersistenceController.init(inMemory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/build/MKDebt.build/Release-iphoneos/MKDebt.build/DerivedSources/CoreDataGenerated/MKDebt/Item+CoreDataClass.swift",
+      "line": 14,
+      "symbol": "Item",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/build/MKDebt.build/Release-iphoneos/MKDebt.build/DerivedSources/CoreDataGenerated/MKDebt/Item+CoreDataClass.swift",
+      "line": 14,
+      "symbol": "Item",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/build/MKDebt.build/Release-iphoneos/MKDebt.build/DerivedSources/CoreDataGenerated/MKDebt/Item+CoreDataClass.swift",
+      "line": 24,
+      "symbol": "Item",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/build/MKDebt.build/Release-iphoneos/MKDebt.build/DerivedSources/CoreDataGenerated/MKDebt/Item+CoreDataProperties.swift",
+      "line": 16,
+      "symbol": "Item.fetchRequest()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/MKDebt/MKDebt/build/MKDebt.build/Release-iphoneos/MKDebt.build/DerivedSources/CoreDataGenerated/MKDebt/Item+CoreDataProperties.swift",
+      "line": 20,
+      "symbol": "Item.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/MKDebt/MKDebt"
+}
