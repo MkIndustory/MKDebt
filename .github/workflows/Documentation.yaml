@@ -20,7 +20,7 @@ jobs:
       - name: Print Jazzy Version
         run: jazzy -v
       - name: Build Documentation by jazzy 
-        run: jazzy --clean --swift-version 5.3.2 --author "Pikichan" --author_url https://github.com/orgs/MkIndustory/people/Pikichan --module RamenViewer --min-acl private
+        run: jazzy --clean --swift-version 5.3.2 --author "Pikichan" --author_url https://github.com/orgs/MkIndustory/people/Pikichan --module MKDebt --min-acl private
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
