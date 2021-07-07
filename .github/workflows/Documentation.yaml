@@ -1,0 +1,27 @@
+name: Documentation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * *
+  push:
+    branches:
+      - main
+
+jobs:
+  job1:
+      name: Generate Documentation
+      runs-on: macos-latest
+      steps:
+      - uses: actions/checkout@v2-beta
+      - name: Install Jazzy
+        run: sudo gem install -n /usr/local/bin jazzy
+      - name: Print Jazzy Version
+        run: jazzy -v
+      - name: Build Documentation by jazzy 
+        run: jazzy --clean --swift-version 5.3.2 --author "Pikichan" --author_url https://github.com/orgs/MkIndustory/people/Pikichan --module MKDebt --min-acl private
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs
+          keep_files: false
